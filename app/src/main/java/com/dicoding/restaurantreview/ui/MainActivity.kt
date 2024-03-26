@@ -21,11 +21,6 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
-    companion object {
-        private const val TAG = "MainActivity"
-        private const val RESTAURANT_ID = "uewq1zg2zlskfw1e867"
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
